@@ -1,0 +1,72 @@
+/* Reset de margens, preenchimentos e bordas */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos básicos para o body */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    line-height: 1.5;
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+/* Configurações padrão para o HTML */
+html {
+    font-size: 16px; /* Definir uma base de 16px */
+    scroll-behavior: smooth; /* Rolagem suave */
+}
+
+/* Remover listas de marcação (bullets) e links sem sublinhado */
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Herda a cor do pai */
+}
+
+/* Normaliza a aparência de tabelas */
+table {
+    border-collapse: collapse; /* Remove o espaço entre as células */
+    width: 100%; /* Faz a tabela ocupar toda a largura */
+}
+
+th, td {
+    text-align: left;
+    padding: 8px; /* Espaçamento nas células */
+}
+
+th {
+    font-weight: bold; /* Negrito para os títulos das colunas */
+}
+
+/* Normaliza a aparência de imagens */
+img {
+    max-width: 100%; /* Faz as imagens se ajustarem ao tamanho do contêiner */
+    height: auto; /* Mantém a proporção das imagens */
+    display: block; /* Remove o espaço extra abaixo da imagem */
+}
+
+/* Configuração do formulário */
+input, textarea, select, button {
+    font: inherit; /* Herda a fonte do body */
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer; /* Indica que o botão é clicável */
+}
+
+/* Normalização do foco */
+:focus {
+    outline: none; /* Remove o contorno do foco */
+}
+

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=DM+Sans:wght@100..1000&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/media-queries.css">
+    <link rel="stylesheet" href="./styles/Style.css">
+    <title>ComedyBox: Sua caixinha de Risadas</title>
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <button class="menu-btn" id="menu-close">
+                    <i class='bx bxs-log-out'></i>
+                </button>
+                <div class="image-logo">
+                    <img src="./assets/images/logo-placeholder.png" alt="logo">
+                </div>
+                <a href="#">ComedyBox</a>
+            </div>
+            <!-- Menu Principal -->
+            <div class="menu menu-main">
+                <h5>Menu</h5>
+                <ul>
+                    <li><i class='bx bx-map-alt'></i><a href="#">Explore</a></li>
+                    <li><i class='bx bx-microphone'></i><a href="#">Shows Solo</a></li>
+                    <li><i class='bx bxs-party'></i><a href="#">Especiais</a></li>
+                    <li><i class='bx bxs-microphone-alt'></i><a href="#">Podcast's</a></li>
+                    <li><i class='bx bx-film'></i><a href="#">Vídeos</a></li>
+                    <li><i class='bx bx-group'></i><a href="#">Colabs</a></li>
+                </ul>
+            </div>
+            <!-- Biblioteca -->
+            <div class="menu menu-library">
+                <h5>Biblioteca</h5>
+                <ul>
+                    <li><i class='bx bx-time'></i><a href="#">Recentes</a></li>
+                    <li><i class='bx bx-folder'></i><a href="#">Playlist</a></li>
+                    <li><i class='bx bx-heart'></i><a href="#">Favoritos</a></li>
+                    <li><i class='bx bx-download'></i><a href="#">Baixados</a></li>
+                </ul>
+            </div>
+            <!-- Sobre Mim -->
+            <div class="menu menu-about">
+                <h5>Sobre Mim</h5>
+                <ul>
+                    <li><i class='bx bx-user'></i><a href="#">Minha Jornada</a></li>
+                    <li><i class='bx bx-image'></i><a href="#">Álbum</a></li>
+                    <li><i class='bx bx-share-alt'></i><a href="#">Redes Sociais</a></li>
+                    <li><i class='bx bx-envelope'></i><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <!-- Artista em Destaque -->
+            <div class="featured-artist">
+                <div class="artist-header">
+                    <img src="./assets/images/Kão.PNG" alt="Foto do Artista">
+                    <h4>Conheça Tambem:<br><span>Rodrigo Kão</span></h4>
+                </div>
+                <div class="artist-content">
+                    <i class='bx bx-card'></i>
+                    <p>Abra essa <strong>Comedy Box</strong></p>
+                </div>
+            </div>
+        </aside>
+        <!-- Conteúdo Principal -->
+        <main>
+            <header>
+                <div class="nav-link">
+                    <button class="menu-btn" id="menu-open">
+                        <i class='bx bx-menu'></i>
+                    </button>
+                    <a href="#">Solos</a>
+                    <a href="#">Especiais</a>
+                    <a href="#">Vídeos</a>
+                </div>
+                <div class="search">
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Quer rir como?">
+                </div>
+            </header>
+            <div class="trending">
+                <div class="left">
+                    <h5>Vídeo em Alta</h5>
+                    <div class="info">
+                        <h2>Tia Tânia: Filha de Ogum <br> das Mais Calmas</h2>
+                        <h4>@NellyCoelho <i class='bx bxl-instagram'></i></h4>
+                        <h5>500 Mil Visualizações</h5>
+                        <div class="buttons">
+                            <button>Assista Agora!</button>
+                            <i class='bx bx-heart'></i>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/images/foto1.png" alt="Vídeo em destaque - Tia Tânia: Filha de Ogum das Mais Calmas" />
+            </div>
+            <div class="jokes-list">
+                <div class="genres">
+                    <div class="header">
+                        <h5>Temas de Nelly Coelho</h5>
+                        <a href="#">Ver todos</a>
+                    </div>
+                    <div class="items">
+                        <div class="item">
+                            <p><i class='bx bx-child'></i> Mãe Raiz</p>
+                        </div>
+                        <div class="item">
+                            <p><i class='bx bx-brain'></i> Mãe de Filho<br>Autista Encapetado</p>
+                        </div>
+                        <div class="item">
+                            <p><i class='bx bxs-hand'></i> Batuqueira!<br>Marmoteira Jamais</p>
+                        </div>
+                        <div class="item">
+                            <p><i class='bx bx-joystick'></i> Mãe Nerd</p>
+                        </div>
+                        <div class="item">
+                            <p><i class='bx bx-sad'></i> Só Desgraça<br>e Riso</p>
+                        </div>
+                        <div class="item">
+                            <p><i class='bx bx-run'></i> Mãe<br>Fitness</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="joke-list">
+                    <div class="header">
+                        <h5>Melhores Piadas</h5>
+                        <a href="#">Ver todas</a>
+                    </div>
+                    <ul>
+                        <li><i class='bx bx-brain'></i> "Roda de Apoio de mães na Escola"</li>
+                        <li><i class='bx bx-cart'></i> "A realidade de uma mãe nerd no supermercado"</li>
+                        <li><i class='bx bx-child'></i> "Filho Demônio"</li>
+                        <li><i class='bx bx-user-voice'></i> "Çocorro-Deuz"</li>
+                        <li><i class='bx bx-dizzy'></i> "Date Ruim"</li>
+                    </ul>
+                    <!-- Lista de vídeos dentro da jokes-list -->
+                    <div class="items">
+                        <div class="item">
+                            <div class="info">
+                                <p>01</p>
+                                <img src="./assets/images/foto 2.png" alt="Filho Autista no Mercado">
+                                <div class="details">
+                                    <h5>Filho Autista no Mercado</h5>
+                                    <p>Nelly Coelho</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <p>04:15</p>
+                                <div class="icon"><i class='bx bx-play-circle'></i></div>
+                                <i class='bx bx-plus-circle'></i>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="info">
+                                <p>02</p>
+                                <img src="./assets/images/foto3.png" alt="Batuque na Hora Errada">
+                                <div class="details">
+                                    <h5>Batuque na Hora Errada</h5>
+                                    <p>Nelly Coelho</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <p>03:50</p>
+                                <div class="icon"><i class='bx bx-play-circle'></i></div>
+                                <i class='bx bx-plus-circle'></i>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="info">
+                                <p>03</p>
+                                <img src="./assets/images/foto 4.png" alt="O Nickname no Chamado Escolar">
+                                <div class="details">
+                                    <h5>O Nickname no Chamado Escolar</h5>
+                                    <p>Nelly Coelho</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <p>05:10</p>
+                                <div class="icon"><i class='bx bx-play-circle'></i></div>
+                                <i class='bx bx-plus-circle'></i>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="info">
+                                <p>04</p>
+                                <img src="./assets/images/foto5.png" alt="A Vida de uma Mãe Nerd">
+                                <div class="details">
+                                    <h5>A Vida de uma Mãe Nerd</h5>
+                                    <p>Nelly Coelho</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <p>03:30</p>
+                                <div class="icon"><i class='bx bx-play-circle'></i></div>
+                                <i class='bx bx-plus-circle'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+        <!-- Seção da direita (pode ser expandida conforme necessário) -->
+        <div class="right-section">
+            <div class="profile">
+                <i class="bx bxs-bell"></i>
+                <i class="bx bxs-cog"></i>
+                <div class="user">
+                    <div class="left">
+                        <img src="./assets/images/Jack.jpg" alt="Foto do perfil de Jack Carvalho">
+                    </div>
+                    <div class="right">
+                        <h5>Jack Carvalho</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="joke-player">
+                <div class="top-section">
+                    <div class="header">
+                        <h5>Player</h5>
+                        <i class='bx bx-list-ul'></i>
+                    </div>
+                    <div class="joke-info">
+                        <img src="./assets/images/DDYMA.PNG" alt="Capa do show Depois dessa Yemanjá me Afunda">
+                        <div class="description">
+                            <h3>Depois dessa Yemanjá me Afunda</h3>
+                            <h5>Nelly Coelho - Show Solo</h5>
+                            <p>Tour 2024</p>
+                        </div>
+                        <div class="progress">
+                            <p>02:45</p>
+                            <div class="active-line"></div>
+                            <div class="deactive-line"></div>
+                            <p>03:15</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="player-actions">
+                    <div class="buttons">
+                        <i class='bx bx-repeat'></i>
+                        <i class='bx bx-first-page'></i>
+                        <i class='bx bxs-right-arrow play-button'></i>
+                        <i class='bx bx-last-page'></i>
+                        <i class='bx bx-transfer-alt'></i>
+                    </div>
+                    <div class="Legenda">
+                        <i class='bx bx-comment'></i>
+                        <i class='bx bx-microphone'></i>
+                        <i class='bx bx-fullscreen'></i>
+                        <h5>Legendas</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
